@@ -1,0 +1,11 @@
+1- İyi bir commit mesajı yapılan değişiklikleri genellikle 1 veya 2 cümle ile mümkün olduğunca net bir şekilde açıklayan ve yapılan işin geriye dönük takibini kolaylıkla sağlamaya yardımcı olan bir yapıya sahip olmalıdır.
+
+2- FIFO yani First In First Out, grubtan veya sıradan bir eleman çıkarılacağı zaman içeride bulunan elemanlardan hangisi en eski ise yani ilk giren ise onun çıkarıldığı bir yapıdır. LIFO yani Last In First Out ise bir eleman çıkarılacağı zaman gruptaki veya sıradaki en yeni elemanın yani en son eklenen elemanın çıkarıldığı bir yapıdır.
+
+3- Main branch’in yanında bir feature branch’inde çalıştığımızı düşünelim. Git merge yaptığımızda feature branch’inde yaptığımız değişiklikler main’e yansıtılacak fakat bizim branch’imiz ayrı bir şekilde tutulacak. Git rebase yaptığımızda ise feature branch’imizi alıp main branch’inin ucuna ekleyecek ve proje lineer bir şekilde ilerleyecek. Bunu yapmaktaki sıkıntı ileride bir bug oluştuğunda commit geçmişinin düzgün bir şekilde incelenmesini ve bug’ın bulunmasını engelleyebilme ihtimalidir.
+
+4- Sourcetree Atlassian firması tarafından geliştirilen ve git kullandığımız projelerimizi yönetmemizi sağlayan bir uygulama. En fazla kullanılan GitHub,  GitLab ve BitBucket gibi sistemler ile entegre olabiliyor. Commitleri, staging’deki dosyaları, stash’deki dosyalar gibi detayları görselleştirerek kolay kullanım sağlıyor. Bu sebeplerle ve aynı zamanda kullanımının ücretsiz olmasıyla yeni başlayanların projelerini kolay yönetmeleri için uygun bir araç olabilir diye düşünüyorum.
+
+5- Hem Compiler hem Interpreter bizim high-level dilde yazdığımız ve bilgisayarın anyalamayacağı halde olan kodu alıp CPU’nun veya GPU’nun işleyebileceği makine kodu’na dönüştürür. Aralarındaki en önemli fark, Compiler’ın bu işlemi program çalışmadan önce yapmasıdır. Interpreter ise makine koduna yani 1 ve 0’lara çevirme işlemini program çalıştığı sırada yapar. Bu yüzden compile edilmiş bir kod Interpreter ile çalıştırılan koddan çok daha hızlı çalışır.
+
+6- Java Servlet yapısı Java’da bir class olup sunucuda çalıştırılan web uygulamalarından request alarak ve response dönerek erişimlerini arttırmalarını sağlayan bir yapıdır.

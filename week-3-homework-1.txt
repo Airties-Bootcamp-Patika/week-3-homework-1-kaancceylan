@@ -1,0 +1,7 @@
+1- Bilgisayarda 65535 tane port vardır.
+
+2- 1024 ve altındaki portlar güvenlik nedeniyle kullanıma açık değil. Bu portları sadece root olarak kullanılabiliyor ve böylece bu portlardan gelen verinin güvenli olduğunu anlıyoruz. Bu portlara genel olarak privileged ports deniyor.
+
+3- Nginx bir web server’ı olarak kullanılan ve aynı zamanda reverse proxy, load balancing, cache’leme gibi operasyonları da gerçekleştirebilen açık kaynaklı bir yazılımdır. Asenkron çalıştığı için çok yüksek hızlarda ve yük altında çalışabilir ve bu yüzden çok popülerdir.
+
+4- DevOps yazılım ekiplerinin daha etkili ve pratik bir şekilde çalışmasını sağlayarak ürün geliştirme proseslerini tamamlamalarını sağlayan bir alan ve çalışma prensibidir. En önemli iki yapısı Continuous Development (CD) ve Continuous Integration’dır (CI). Bu iki ana yapıyı Plan, Build ve Deploy, Maintain olarak 4e bölebiliriz. Bunlar da kendi içlerinde planlama, kodlama, build etme, test etme, release/deploy etme, operasyon ve monitoring olarak bölünebilir. Bu alanlar için sırasıyla Git, Maven, Selenium, Jenkins, Docker, Ansible/Kubernetes ve Splunk gibi teknolojiler kullanılır.

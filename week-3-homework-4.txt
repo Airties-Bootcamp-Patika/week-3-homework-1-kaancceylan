@@ -1,0 +1,9 @@
+1- Hem URI hem URL nesneleri bulmamızı sağlayan karakter dizileridir. URL (Unique Resource Locator) bir websitesi, fotoğraf gibi objeleri internet üzerinde bulmamızı sağlar. URI (Unique Resource Identifier) is bir objeyi veya kaynağı diğerinden ayırt edebilmemizi sağlar. Örneğin [www.youtube.com](http://www.youtube.com) bir url iken [https://www.youtube.com/watch?v=nFDkWL2Hmh8](https://www.youtube.com/watch?v=nFDkWL2Hmh8) bir URI’dır çünkü spesifik bir videoya işaret eder ve bu videoyu youtube üzerindek diğer videolardan ayırt etmemizi sağlar.
+
+2- DNS yani Domain Name System, domain isimlerinin IP adreslerine çevirilmesini sağlayan sistemdir. Tarayıcımıza bir URL yani domain girdiğimizde bunun IP’ye çevirilerek sunucuya iletilmesini sağlar. Domain internetteki nesnelere veya bağlı olan cihazlara atanan ve sadece rakamlardan oluşan IP adreslerinin daha okunur olmasını sağlayan bir yapıdır. Host ise ulaşmaya çalıştığımız veriyi tutan veriyi tutan ve IP adresine ulaşmaya çalıştığımız makinedir.
+
+3- GNU 80’lerde GNU/Linux olarak açık kaynak geliştirilmeye başlanan ve Unix tabanlı işletim sistemlerinde kullanılan araçlar geliştiren bir projedir.
+
+4- Git, aynı zamanda Linux çekirdeğini de geliştiren Linus Torvalds tarafından yaratılan açık kaynaklı bir versiyon kontrol sistemidir. Geliştirilen projenin dosyalarını ve bu dosyalardaki değişimleri takip etmemizi, bir ekip halinde projenin farklı kollarında çalışabilmemizi sağlayan ve daha bir çok avantajı olan bir araçtır.
+
+5- CLI yani Command Line Interface, üzerinde direkt olarak kernel’e gönderilen komutlar koşabileceğimiz bir yapıdır. GUI yani Graphical User Interface ise çoğu programı kullanmamız için görsellik sağlayan ve içerisinde çalıştırdığımız komutları process ettikten sonra işletim sisteminin alt katmanlarına yönlendiren bir yapıdır. CLI’ın üzerine bir katman daha ekleyip linux komutlarını bilmemize gerek kalmadan işlem yapmamızı sağlar.

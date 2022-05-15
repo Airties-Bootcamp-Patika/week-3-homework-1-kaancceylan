@@ -1,0 +1,9 @@
+1- Ansible bulut üzerinde kullanılan altyapıların dağıtılmasında, konfigüre edilmesinde ve bu kaynaklar üzerinden uygulamaların ayağa kaldırılmasında kullanılan bir otomasyon yazılımıdır.
+
+2- XML istenilen verinin key-value çiftleri halinde tutulup kullanılmasını sağlayan bir dildir ve açılımı Extensible Markup Language’dir.
+
+3- JSON yani Javascript Object Notation, büyük oranda web üzerinde data transferi yapmak için kullanılan bir formattır.
+
+4- YAML genellikle terraform gibi IaC veya Docker gibi containerlaştırma uygulamalarının içinde konfigürasyon yapılmak için kullanılan ve XML gibi key-value çiftleri halinde bilgilerin saklandığı bir dildir. Önemli bir farkı, yazılan satırların indentasyonlarının önemidir. Açılımı ise HTML ve XML’den sonra çıktığı için verildiğini düşündüğüm “Yet Another Markup Language”dir.
+
+5- HTTP yani Hyper Text Transfer Protocol, adından da anlaşılacağı gibi HTML’deki Hyper Text’in internet üzerinden transferinin gerçekleşmesini ve websitelerinin içeriğini görmemizi sağlayan veri aktarım protokolüdür. HTTPS ise sonundaki S’in secure anlamına gelmesi ile aynı protokolün daha güvenli halidir. HTTPS kullanıldığında sunucu ve client arasında gidip gelen veriler her iki uçta da şifrelenerek güvenli bir şekilde ulaştırılır. HTTP ve HTTPS kodları 3 haneli olarak 100 ile 599 arasında değişir. 1 ile başlayanlar işlem hakkında kullanıcıya bilgi aktarır, 2 ile başlayanlar başarılı bir işlem gerçekleştiğini belirtirler. 3 ile başlayan kodlar istenilen içeriğin bulunamadığını, 4 ile başlayan kodlar client’ın request’inde sorun olduğunu ve son olarak 5 ile başlayan hata kodları server tarafından kaynaklanan hataları belirtir.

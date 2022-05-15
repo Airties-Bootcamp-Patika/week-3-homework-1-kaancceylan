@@ -1,0 +1,9 @@
+1- Statik kod analizi yazılan kodun compile edilmeden ve çalıştırılmadan kontrol edildiği ve kodun belirli metriklere/kurallara göre kontrol edilerek günenlik açığı gibi ileride sorun yaratacak noktalar olup olmadığının kontrol edildiği bir analiz yöntemidir. Bu iş için en yaygın kullanılan çözüm SonarQube’dür. Kodu kontrol ederek hem bu tarz noktaları hem de code smell’lerini kontrol ederek kodun kalitesi hakkında bir fikir sahibi olmamızı sağlar.
+
+2- Kubernetes container halinde çalıştırılan uygulamaların ve process’lerin ve bunların kullandığı kaynakların yönetiminin ve otomasyonlarının yapılmasını sağlayan bir uygulamadır.
+
+3- Orkestrasyon kubernetes için kullanıldığında container olarak çalışan uygulamaların ölçeklendirildiklerinde yönetilebilmelerini sağlayan, altyapılarının doğru şekilde verilmesini, networking ve load balancing gibi noktaların istenildiği şekilde çalışmasını sağlayan bir yapıdır.
+
+4- Npm’in açılımı Node Package Manager’dır ve uygulama geliştirilirken kullanılması gereken modüllerin yüklenmesini, kaldırılmasını, yönetilmesini ve node’un bu modülleri bulabilmesi için doğru yerlerde olmalarını sağlar.
+
+5- Agile tek başına bir proje yönetim yöntemi, scrum ise agile’ın altında yer alan bir metodolojidir. İkisinin amacı da projelerin daha efektif ve sorunsuz yönetilerek hızlı ve hatasız bir şekilde ilerlemesini ve sonuç olarak alınan yazılımın daha hızlı gelişmesini sağlamaktır.

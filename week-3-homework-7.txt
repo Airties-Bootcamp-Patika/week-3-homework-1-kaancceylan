@@ -1,0 +1,115 @@
+1- Git staging ve unstaging işlemleri “git add” komutu ile yaptığımız ve belirtilen dosyaları staging alanına alıp takip edilmesini sağlayan yapıdır. Commit’imize dahil etmek istediğimiz dosyalar staging’e alınır.
+
+2- Git config ile C:\Users\username\.gitconfig lokasyonunda tutulan gitconfig dosyası içine git hesabımızda kullandığımız kullanıcı adı, email gibi bilgileri kaydedebiliriz. Bunlar projeler için farklı olarak da kaydedilebilir global olarak da kaydedilebilir.
+
+3- mkdir git_code
+
+4- touch data.txt
+
+5- git init .
+
+6- git branch git
+
+   git branch linux
+
+7-git checkout linux
+
+  cat >> git.txt
+
+      cd Desktop
+
+      ls
+
+      pwd
+
+      ^C
+
+  git add git.txt
+ 
+  git commit -m “added linux commands”
+
+  git log
+
+  git status
+
+  cat >> git.txt
+
+     tree -F
+
+     whoami
+
+     top
+
+     ^C
+
+  git add git.txt
+
+  git commit -m “added more commands
+
+  git log
+
+  git status
+
+  cat >> git.txt
+
+    echo “mylinuxcommands”
+
+    clear
+
+    ^C
+
+  git add git.txt
+
+  git commit -m “last set of linux commands”
+
+8- ssh-keygen -t ed25519 -C “kaanceylan@gmail.com"
+
+   eval **`ssh-agent -s`**
+
+   cd ~/.ssh/config
+
+   vi config
+
+     Host *
+
+     AddKeysToAgent yes
+
+     UseKeychain yes
+
+   IdentityFile ~/.ssh/id_ed25519
+
+   ssh-add -K ~/.ssh/id_ed25519
+
+   cd Desktop/git_code
+
+   git push .
+
+9- git config —global alias mylogalias ‘log —al —decorate —graph —oneline’
+
+10- touch .gitignore
+
+    cat >> .gitignore
+
+    secret
+
+    ^C
+
+11- git diff 25b29f2 1b6f330e0
+
+12- git clone https://github.com/kaancceylan/my_devops_repo
+
+13- git checkout main
+
+    git merge feature-x
+
+    git merge —no-ff feature-y
+
+    git branch
+ 
+    git branch -d feature-x
+
+    git branch -d feature-y
+
+14- İki veya daha fazla kişi aynı dosyanın aynı satırlarında değişiklikler yapıp farklı şeyler yazdığında git bu satırları nasıl merge edeceğini bilmediği için bir merge conflict oluşur ve dosyalarda değişiklik yapan kişiler manuel olarak bu satırları inceleyip ne şekilde yazılacaklarına karar vererek merge conflict’i çözerler.
+
+15- Main branch’in yanında bir feature branch’inde çalıştığımızı düşünelim. Git merge yaptığımızda feature branch’inde yaptığımız değişiklikler main’e yansıtılacak fakat bizim branch’imiz ayrı bir şekilde tutulacak. Git rebase yaptığımızda ise feature branch’imizi alıp main branch’inin ucuna ekleyecek ve proje lineer bir şekilde ilerleyecek. Bunu yapmaktaki sıkıntı ileride bir bug oluştuğunda commit geçmişinin düzgün bir şekilde incelenmesini ve bug’ın bulunmasını engelleyebilme ihtimalidir.
